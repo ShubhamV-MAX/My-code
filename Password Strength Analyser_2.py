@@ -41,8 +41,7 @@ while i == "y" or i == "Y" :
         if has_space == True :
             rating -=1
             
-        print(rating)
-        
+        print("The Password is "rating "Out of 5.")        
 
     else :
         print("The Password has not been Entered.")
