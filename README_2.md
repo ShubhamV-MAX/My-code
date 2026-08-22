@@ -16,7 +16,7 @@ This Python script is a lightweight **CLI (Command Line Interface)** tool design
 | **Lowercase Letters** | `a-z` (e.g., `.islower()`) | `+1` | Expands the potential character pool by 26 characters. |
 | **Digits / Decimals** | `0-9` (e.g., `.isdecimal()`) | `+1` | Adds numeric variance, disrupting basic dictionary-based attacks. |
 | **Special Characters** | `!@#$...` (`string.punctuation`) | `+1` | Utilizes standard punctuation to heavily diversify the required brute-force character space. |
-| **Spaces** | `" "` (e.g., `.isspace()`) | `-1` | Penalizes spaces, which can occasionally cause vulnerabilities or input sanitation issues in legacy systems. |
+| **Spaces** | `" "` (e.g., `.isspace()`) | `+1` | Penalizes spaces, which can occasionally cause vulnerabilities or input sanitation issues in legacy systems. |
 
 ## 🚀 How to Run
 1.  Ensure you have **Python 3.x** installed on your local environment.
