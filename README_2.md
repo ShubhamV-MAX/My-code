@@ -6,7 +6,6 @@ This Python script is a lightweight **CLI (Command Line Interface)** tool design
 ## ⚙️ Features
 *   **Continuous Execution (REPL):** Utilizes a continuous `while` loop allowing the user to test multiple passwords consecutively without restarting the script.
 *   **Comprehensive Character Checking:** Validates the presence of multiple character sets using Python's built-in string methods.
-*   **Security Penalties:** Identifies and penalizes the inclusion of spaces, which can sometimes lead to parsing errors or indicate weak passphrase structures depending on the hashing backend.
 
 ## 📊 Evaluation Metrics & Rating System
 
