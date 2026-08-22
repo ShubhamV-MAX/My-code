@@ -19,14 +19,6 @@ This Python script is a lightweight **CLI (Command Line Interface)** tool design
 | **Special Characters** | `!@#$...` (`string.punctuation`) | `+1` | Utilizes standard punctuation to heavily diversify the required brute-force character space. |
 | **Spaces** | `" "` (e.g., `.isspace()`) | `-1` | Penalizes spaces, which can occasionally cause vulnerabilities or input sanitation issues in legacy systems. |
 
-## 📚 Technical Glossary & Short Forms
-*   **CLI (Command Line Interface):** A text-based user interface used to view and manage computer files and execute scripts.
-*   **InfoSec (Information Security):** The practice of protecting digital and physical information from unauthorized access, disclosure, or destruction.
-*   **REPL (Read-Eval-Print Loop):** An interactive programming environment that takes user inputs, evaluates the logic, prints the result, and loops back to the start (implemented via the `while i == "y"` loop).
-*   **ASCII (American Standard Code for Information Interchange):** A foundational character encoding standard for electronic communication. The script's `string.punctuation` module relies on these standardized symbol codes.
-*   **Brute-Force Attack:** A cryptographic attack vector where an adversary submits numerous password combinations with the hope of eventually guessing correctly. 
-*   **Entropy:** In cyber security, it refers to the randomness or unpredictability of data. Higher password entropy means it is statistically much harder to crack.
-
 ## 🚀 How to Run
 1.  Ensure you have **Python 3.x** installed on your local environment.
 2.  Save the provided script to a file named `password_analyzer.py`.
