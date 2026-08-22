@@ -39,9 +39,9 @@ while i == "y" or i == "Y" :
         has_space = any(char.isspace() for char in password)
         print("Space is present" if has_space == True else "Space is not present") 
         if has_space == True :
-            rating -=1
+            rating +=1
             
-        print("The Password is "rating "Out of 5.")        
+        print("The Password is "rating "Out of 6.")        
 
     else :
         print("The Password has not been Entered.")
